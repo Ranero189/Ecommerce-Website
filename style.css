@@ -54,13 +54,15 @@
     background: #f0f0f0;
     border-radius: 20px;
     padding: 5px 15px;
-    width: 250px;
+    width: 577px;
+    height: 48px;
 }
 
 .search-bar input {
     border: none;
     outline: none;
     background: transparent;
+    font-size: 14px;
     width: 100%;
     padding: 5px;
 }
