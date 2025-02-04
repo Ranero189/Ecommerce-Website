@@ -75,21 +75,17 @@
 .icons {
     display: flex;
     gap: 20px;
-}
-
-.icons i {
     font-size: 18px;
     cursor: pointer;
 }
 
 /* Seção Hero */
 #hero {
-    background-image: url("img/f2.png");
+    background-image: url("img/f1.png");
     height: 90vh;
     width: 100%;
     background-size: cover;
     background-position: top 25% right 0;
-    padding: 0 80px;
     display: flex;
     align-items: center;
     justify-content: space-between;
