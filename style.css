@@ -35,6 +35,12 @@
     z-index: 1000;
 }
 
+#header .logo {
+    font-family: 'Integral CF', sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+}
+
 /* Navbar */
 #navbar {
     display: flex;
@@ -84,7 +90,6 @@
     background-image: url("img/f1.png");
     height: 90vh;
     width: 100%;
-    background-size: cover;
     background-position: top 25% right 0;
     display: flex;
     align-items: center;
@@ -127,6 +132,7 @@
 .stats {
     display: flex;
     align-items: center;
+    justify-content: space-between;
     margin-top: 80px;
 }
 
@@ -135,12 +141,10 @@
     font-size: 34px;
     font-weight: bold;
     line-height: 0.1;
-    padding: 0 20px;
 }
 
 .stats p {
     font-size: 14px;
-    padding: 0 20px;
     color: #666;
 }
 
