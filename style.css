@@ -149,13 +149,13 @@ body {
     background-color: #f0f0f0;
     background-image: url("img/f1.png");
     background-repeat: no-repeat;
-    background-position: top 25% right 30%;
+    background-position: top 100% right 30%;
     height: 90vh;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 50px 200px;
+    padding: 20px 200px;
 }
 
 /* Texto principal */
@@ -224,15 +224,28 @@ body {
 
 /* Posicionamento */
 .star1 {
-    width: 100px;
-    height: 100px;
+    width: 104px;
+    height: 104px;
     top: 30%;
-    right: 8%;
+    right: 7%;
 }
 
 .star2 {
-    width: 60px;
-    height: 60px;
-    bottom: 40%;
+    width: 56px;
+    height: 56px;
+    bottom: 38%;
     left: 50%;
+}
+
+/* Barra de Marcas */
+.brands-bar {
+    background-color: black;
+    padding: 40px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.brands-container {
+    display: flex;
+    gap: 130px;
 }
