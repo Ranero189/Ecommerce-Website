@@ -12,7 +12,6 @@ var initializeFormValidation = function () {
     message.style.transition = "opacity 0.5s ease-in-out";
     formEmail.appendChild(message);
     function isValidEmail(email) {
-        // Regex stackoverflow - 1 validação - pelo menos 1 caractere e sem espaço ou @.
         var emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
         return emailRegex.test(email);
     }
@@ -37,8 +36,3 @@ var initializeFormValidation = function () {
         }, 3000);
     });
 };
-
-// Carrega os componentes e só executa a validação depois que o footer for carregado.
-window.onload = function () {
-    loadComponent("index.html", "index", initializeFormValidation);
-}
