@@ -28,11 +28,10 @@
 * font-variation-settings: 'wght' 900.0;
 *
 * available axes:
-
 * 'wght' (range from 300.0 to 900.0)
-
 */
 
+/**
 /*variables*/
 
 @font-face {
@@ -63,6 +62,7 @@
     --font-secondary: "Integral-Bold";
   }
 
+/**
 /*reset*/
 
 * {
@@ -86,6 +86,7 @@
     text-decoration: none;
 }
 
+/**
 /*typography*/
 
 h1 {
@@ -97,6 +98,7 @@ h1 {
     line-height: 1.6;
 }
 
+/**
 /*header*/
 
 header {
@@ -250,6 +252,7 @@ header {
     }
 }
 
+/**
 /*presentation*/
 
 #presentation {
@@ -532,6 +535,7 @@ header {
     }
 }
 
+/**
 /*new arrivals*/
 
 #new-arrivals {
@@ -700,6 +704,7 @@ header {
     }
 }
 
+/**
 /*top selling*/
 
 #top-selling {
@@ -861,6 +866,7 @@ header {
     }
 }
 
+/**
 /*browse*/
 
 #browse {
@@ -955,6 +961,7 @@ header {
     }
 }
 
+/**
 /*reviews*/
 
 #reviews {
@@ -1075,6 +1082,7 @@ header {
     }
 }
 
+/**
 /*footer*/
 
 #footer {
