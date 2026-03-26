@@ -516,23 +516,47 @@ header {
 }
   
 @media screen and (min-width: 1422.88px) {
-    & .text-presentation {
-        padding-top: 70px !important;
-    }
-  
-    & li {
-        & h2 {
-            font-size: 40px !important;
+    #presentation {
+        & .text-presentation {
+            padding-top: 70px !important;
         }
-  
-        & p {
-            font-size: 16px !important;
+    
+        & li {
+            & h2 {
+                font-size: 40px !important;
+            }
+    
+            & p {
+                font-size: 16px !important;
+            }
+        }
+    
+        .informations {
+            padding-bottom: 55px !important;
         }
     }
-  
-    .informations {
-        padding-bottom: 55px !important;
-    }
+}
+
+/**
+/*fast fashion*/
+
+#fast-fashion-impact, #sustainable-fashion {
+    padding: 50px 0;
+}
+
+#fast-fashion-impact h1, #sustainable-fashion h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#fast-fashion-impact p, #sustainable-fashion p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    text-align: justify;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
 }
 
 /**
